@@ -17,7 +17,11 @@
 					color:#DE8E1B;
 					text-decoration:underline;
 				}
-
+			.wrapper{
+				background: gold;
+				width:980px;
+				margin: 0 auto;
+			}
 			#header{
 				background-color:#FFF1E6;
 			}
@@ -31,30 +35,33 @@
 
 	<body>
 		<div id="header">
-			<img src="images/pace-logo.jpeg" alt="My Vacation Rental Logo"/>
-			<ul id="language-switcher">
-				<li>
-					<img src="images/languages/en.jpeg" alt="English"/></li>
-				<li>
-					<ul>
-						<li><img src="images/languages/nl.jpeg" alt="Netherlands"/></li>
-						<li><img src="images/languages/ar.jpeg" alt="Arabic"/></li>
-					</ul>
-				</li>
-			</ul>
+			<div class="wrapper">
+				<img src="images/pace-logo.jpeg" alt="My Vacation Rental Logo"/>
+				<ul id="language-switcher">
+					<li>
+						<img src="images/languages/en.jpeg" alt="English"/></li>
+					<li>
+						<ul>
+							<li><img src="images/languages/nl.jpeg" alt="Netherlands"/></li>
+							<li><img src="images/languages/ar.jpeg" alt="Arabic"/></li>
+						</ul>
+					</li>
+				</ul>
 
-			<ul id="main-menu">
-				<li><a href="index.html">Home</a>
-				<li><a href="index.html">About the property</a>
-				<li><a href="index.html">Gallery</a>
-				<li><a href="index.html">Location</a>
-				<li><a href="index.html">Rates &amp; Reservations</a>
-				<li><a href="index.html">Contact us</a>
-			</ul>
+				<ul id="main-menu">
+					<li><a href="index.html">Home</a>
+					<li><a href="index.html">About the property</a>
+					<li><a href="index.html">Gallery</a>
+					<li><a href="index.html">Location</a>
+					<li><a href="index.html">Rates &amp; Reservations</a>
+					<li><a href="index.html">Contact us</a>
+				</ul>
 
-			<form action="#">
-				<input type="text"/>
-			</form>
+				<form action="#">
+					<input type="text"/>
+					<input type="submit" value="search"/>
+				</form>
+			</div>
 		</div>
 	</body>
 </html>
